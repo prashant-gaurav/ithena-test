@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: local('Ubuntu-Medium'), url(../fonts/Ubuntu-Medium.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Light';
+    src: local('Nunito-Light'), url(../fonts/Nunito-Light.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular'), url(../fonts/Nunito-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: local('Nunito-Bold'), url(../fonts/Nunito-Bold.ttf) format('opentype');
+}
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.header-bg {
+    transition-delay: 200ms;
+    background-color: #ffffff;
+    /*background-color: #f8f9fa;*/
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.header .left {
+    padding-left: 8vw;
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 2em;
+    color: #5F81EC;
+    font-family: Ubuntu-Medium;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.header .right {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    padding-right: 8vw;
+    justify-content: flex-end;
+}
+
+.header .right .right-link-txt {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: black;
+    padding-left: 50px;
+    font-family: Nunito-Regular;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.header .right .right-link-txt:hover {
+    color: #5F81EC;
+}
+
+header .right .right-link-txt .btn-signup {
+    color: white;
+    background-color: black;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+input {
+    background: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+input::placeholder {
+    color: #888888;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid #5F81EC;
+    box-shadow: 0 0 10px #b6c5ff;
+    background: white;
+    color: #3b3b3b;
+}
+
+footer {
+    background-color: lavender;
+    padding: 10px 50px;
+    /*background: linear-gradient(90deg, #ed95b9 0%, #f0c0d6 53%, #bc9bd3);*/
+}
+
+footer div {
+    display: flex;
+}
+
+footer div:nth-child(1) {
+    /*height: 60px;*/
+    /*background-color: #041d5c;*/
+}
+
+/*footer div:nth-child(2) {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+footer div copyright p {
+    font-size: 16px;
+    color: #5F81EC;
+}
+
+footer div social {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    padding: 10px;
+
+}
+
+footer div social a {
+    font-size: 33px;
+    color: #5F81EC;
+}
+
+footer div social a:hover {
+    color: #294dbd;
+}

@@ -1,0 +1,40 @@
+.main {
+    width: 100vw;
+}
+
+.main form {
+    padding: 15vh 30vw 10vh 30vw;
+    /*padding: ;*/
+}
+
+.main .rows {
+    margin: 0 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.add-button {
+    display: flex;
+    z-index: 1000;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    background-color: green;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    /*padding: 30px;*/
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.add-button p {
+    /*font-weight: 500;*/
+    font-size: 50px;
+    color: white;
+}

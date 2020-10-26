@@ -1,0 +1,34 @@
+.btn-primary {
+    padding: 10px 50px;
+    max-width: 120px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: "Nunito-Regular";
+    background: rgb(66, 93, 172);
+    cursor: pointer;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(75, 108, 208) 0%, rgb(95, 129, 236) 53%, rgb(133, 163, 255) 100%);
+}
+
+
+.btn-outline {
+    padding: 10px 50px;
+    margin: 20px;
+    max-width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: "Nunito-Regular";
+    border: 1px solid #fff;
+    cursor: pointer;
+    text-decoration: none;
+}

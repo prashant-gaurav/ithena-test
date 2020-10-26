@@ -1,0 +1,51 @@
+auth {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+auth .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    padding: 10vw;
+    background-color: white;
+}
+
+
+
+auth .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    padding: 10vw;
+    background: rgb(66, 93, 172);
+    background: linear-gradient(90deg, rgb(75, 108, 208) 0%, rgb(102, 138, 252) 53%, rgb(75, 108, 208) 100%);
+}
+
+auth .details p {
+    font-size: 1.6em;
+    font-family: Nunito-Light;
+    text-align: center;
+    color: lavender;
+}
+
+auth .heading {
+    font-size: 4em;
+    font-family: Ubuntu-Medium;
+}
+
+auth .form .forgot-password {
+    padding: 10px;
+    color: #535353;
+    font-family: Nunito-Regular;
+}
+
+
+

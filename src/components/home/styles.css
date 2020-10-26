@@ -1,0 +1,23 @@
+.card-md-4 {
+    display: flex;
+    flex: 0 24%;
+    flex-direction: column;
+    margin: 2vh 0.5%;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px -1px 20px -14px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: -1px -1px 20px -14px rgba(0, 0, 0, 0.52);
+    box-shadow: -1px -1px 20px -14px rgba(0, 0, 0, 0.52);
+}
+
+.card-md-4 .img {
+    height: 30vh;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.card-md-4 .video {
+    height: 80vh;
+    width: 80vw;
+}
